@@ -1,0 +1,8 @@
+module ALU #(parameter regSize = 8)(
+	input	[regSize-1:0]			SrcA,
+	input [regSize-1:0]			SrcB,
+	input								shift,
+	output logic [regSize-1:0]	result
+);
+
+endmodule

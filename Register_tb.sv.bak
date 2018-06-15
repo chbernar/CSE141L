@@ -1,0 +1,18 @@
+module Register_tb;
+
+	parameter numReg = 3;
+	parameter dataSize = 8;
+	
+	logic						CLK,
+	logic [numReg-1:0]	srcA,				// rs
+	logic [numReg-1:0]	srcB,				// rt
+	logic [numReg-1:0]	WriteReg,		// Write to reg: always to rs
+	logic						RegWriteCtrl,	// Write control
+	logic						LoadImm,			// Load imm control
+	logic [dataSize-1:0]	WriteData,		// Data to be written
+	
+	
+	output logic [dataSize-1:0]	ReadA,		// Data dat
+	output logic [dataSize-1:0]	ReadB			// Data2 read
+	
+	

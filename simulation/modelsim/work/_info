@@ -1,0 +1,634 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 11 definitions 0 22 MId@[<?7XQI;6O09WHIA;2
+DXx4 work 11 ALU_sv_unit 0 22 =JgQmLnPNV@FVc0:idkmQ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <Xnc9EYUh@iKoCB[_HU?j3
+II<^aS7_oBf?WJNH3O8=NE2
+!s105 ALU_sv_unit
+S1
+R0
+Z4 w1528513969
+Z5 8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU.sv
+Z6 FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU.sv
+L0 9
+Z7 OV;L;10.5b;63
+Z8 !s108 1528579919.000000
+Z9 !s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU.sv|
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU.sv|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+XALU_sv_unit
+R1
+R2
+V=JgQmLnPNV@FVc0:idkmQ2
+r1
+!s85 0
+31
+!i10b 1
+!s100 4mgCAhC[XB2RThQ`X?a:@1
+I=JgQmLnPNV@FVc0:idkmQ2
+!i103 1
+S1
+R0
+R4
+R5
+R6
+L0 7
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l@u_sv_unit
+vALU_tb
+R1
+R2
+DXx4 work 14 ALU_tb_sv_unit 0 22 1dHA?FEL0Je<90A^Rdlz]1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2`O3KUlU[iXlN1><[h5g72
+ITef[d^KL8ENH`ZUDC4jH13
+!s105 ALU_tb_sv_unit
+S1
+R0
+Z13 w1528330574
+Z14 8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU_tb.sv
+Z15 FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU_tb.sv
+L0 8
+R7
+R8
+Z16 !s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU_tb.sv|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ALU_tb.sv|
+!i113 1
+R11
+R12
+n@a@l@u_tb
+XALU_tb_sv_unit
+R1
+R2
+V1dHA?FEL0Je<90A^Rdlz]1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mDTYYIW0I2?S_7LflNzSN3
+I1dHA?FEL0Je<90A^Rdlz]1
+!i103 1
+S1
+R0
+R13
+R14
+R15
+L0 7
+R7
+R8
+R16
+R17
+!i113 1
+R11
+R12
+n@a@l@u_tb_sv_unit
+vControlDecoder
+R1
+R2
+DXx4 work 22 ControlDecoder_sv_unit 0 22 dc@[PUWKJo?;lM0WlENz81
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 [X>B5PGXT_f5neVz;bK8]0
+ILhl01Jjd<7?1>e^M>f:Wc1
+!s105 ControlDecoder_sv_unit
+S1
+R0
+Z18 w1528579719
+Z19 8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ControlDecoder.sv
+Z20 FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ControlDecoder.sv
+L0 3
+R7
+R8
+Z21 !s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ControlDecoder.sv|
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/ControlDecoder.sv|
+!i113 1
+R11
+R12
+n@control@decoder
+XControlDecoder_sv_unit
+R1
+R2
+Vdc@[PUWKJo?;lM0WlENz81
+r1
+!s85 0
+31
+!i10b 1
+!s100 @Q6T>9Bco3j<::89V]h@60
+Idc@[PUWKJo?;lM0WlENz81
+!i103 1
+S1
+R0
+R18
+R19
+R20
+L0 1
+R7
+R8
+R21
+R22
+!i113 1
+R11
+R12
+n@control@decoder_sv_unit
+vDataMemory
+R1
+Z23 !s110 1528579919
+!i10b 1
+!s100 2n_F6>R=fDWd6gGd0WX0C1
+I^YDWhAlS3Oi3><Y=3<kBJ2
+R3
+!s105 DataMemory_sv_unit
+S1
+R0
+w1528426891
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory.sv
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory.sv|
+!i113 1
+R11
+R12
+n@data@memory
+vDataMemory_tb
+R1
+R23
+!i10b 1
+!s100 of<lU]e@5G<:b;d9IWoJ<0
+IB84^X<a^c@Ui_NYT6P^BQ3
+R3
+!s105 DataMemory_tb_sv_unit
+S1
+R0
+w1528424766
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory_tb.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory_tb.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory_tb.sv|
+!i113 1
+R11
+R12
+n@data@memory_tb
+Xdefinitions
+R1
+R23
+!i10b 1
+!s100 ;f^jDS<3gJ=d==C22nENg3
+IMId@[<?7XQI;6O09WHIA;2
+VMId@[<?7XQI;6O09WHIA;2
+S1
+R0
+w1528513941
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/definitions.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/definitions.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/definitions.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/definitions.sv|
+!i113 1
+R11
+R12
+vIF_tb
+R1
+R23
+!i10b 1
+!s100 2<AK4KI<MSF:YP:=Oz[zW3
+IhWB7GURjgLhj=hTIfe5[62
+R3
+!s105 IF_tb_sv_unit
+S1
+R0
+w1528425067
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/IF_tb.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/IF_tb.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/IF_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/IF_tb.sv|
+!i113 1
+R11
+R12
+n@i@f_tb
+vInstructionFetch
+R1
+R23
+!i10b 1
+!s100 Ic=S3o:YDN8cDgkkonMao3
+IbfKzFa^@lW988IOU8:dCS1
+R3
+!s105 InstructionFetch_sv_unit
+S1
+R0
+w1528430975
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionFetch.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionFetch.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionFetch.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionFetch.sv|
+!i113 1
+R11
+R12
+n@instruction@fetch
+vInstructionROM
+R1
+Z24 !s110 1528579920
+!i10b 1
+!s100 K8eVD[_C>kCk8Y7YanXnU0
+I;9aZE9bo<Pz9`Cd]OLXVE3
+R3
+!s105 InstructionROM_sv_unit
+S1
+R0
+w1528427598
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionROM.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionROM.sv
+L0 7
+R7
+r1
+!s85 0
+31
+Z25 !s108 1528579920.000000
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionROM.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/InstructionROM.sv|
+!i113 1
+R11
+R12
+n@instruction@r@o@m
+vLut
+R1
+R24
+!i10b 1
+!s100 QPE3WemMSR4FR_i0Nzd?<0
+IH:k7GCbi2GbY`Z[:RRf>X1
+R3
+!s105 lut_sv_unit
+S1
+R0
+w1528515529
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/lut.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/lut.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/lut.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/lut.sv|
+!i113 1
+R11
+R12
+n@lut
+vLUT_Reg
+R1
+!s110 1528582548
+!i10b 1
+!s100 G;k[;]]U2kjWJdPi=STN42
+I[LQZNg`Y:BIm3V;V;`=XW3
+R3
+!s105 LUT_Reg_sv_unit
+S1
+R0
+w1528582541
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/LUT_Reg.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/LUT_Reg.sv
+L0 8
+R7
+r1
+!s85 0
+31
+!s108 1528582548.000000
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/LUT_Reg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/LUT_Reg.sv|
+!i113 1
+R11
+R12
+n@l@u@t_@reg
+vMuxALUSrcA
+R1
+R24
+!i10b 1
+!s100 :9gEf`7dFHV^XR0>zUU[G2
+Ibi03>S>h9Ylm7dKz2>=G52
+R3
+!s105 MuxALUSrcA_sv_unit
+S1
+R0
+R13
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcA.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcA.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcA.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcA.sv|
+!i113 1
+R11
+R12
+n@mux@a@l@u@src@a
+vMuxALUSrcB
+R1
+R24
+!i10b 1
+!s100 W^eLEcb0B9a@K[oHYOiUR1
+IDB?IG>S]6VJn7O<e[7Zf^0
+R3
+!s105 MuxALUSrcB_sv_unit
+S1
+R0
+w1528579910
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcB.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcB.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcB.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxALUSrcB.sv|
+!i113 1
+R11
+R12
+n@mux@a@l@u@src@b
+vMuxMemAddress
+R1
+R24
+!i10b 1
+!s100 3KnoW1Q]7Z7FoH7CA;7N11
+IGJ:zAJHc9e[`>CV7J2H5G2
+R3
+!s105 MuxMemAddress_sv_unit
+S1
+R0
+w1528488460
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemAddress.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemAddress.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemAddress.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemAddress.sv|
+!i113 1
+R11
+R12
+n@mux@mem@address
+vMuxMemDataIn
+R1
+R24
+!i10b 1
+!s100 HLj0o65B[6P3UadIWzKGh0
+I7b[Kf6QdEmWn<FPWM_Mzl3
+R3
+!s105 MuxMemDataIn_sv_unit
+S1
+R0
+R13
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemDataIn.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemDataIn.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemDataIn.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxMemDataIn.sv|
+!i113 1
+R11
+R12
+n@mux@mem@data@in
+vMuxRegWriteInput
+R1
+R24
+!i10b 1
+!s100 KLP=:S@1UDEZlDQ2zn[DT3
+IZg^lW3A8Poa2cNBogIa0X3
+R3
+!s105 MuxRegWriteInput_sv_unit
+S1
+R0
+R13
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxRegWriteInput.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxRegWriteInput.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxRegWriteInput.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/MuxRegWriteInput.sv|
+!i113 1
+R11
+R12
+n@mux@reg@write@input
+vRegister
+R1
+R24
+!i10b 1
+!s100 dFMNmQmX2N3Y1mRRd^PEX1
+IAXkm7fe9:CX6EYJnoNAfT3
+R3
+!s105 Register_sv_unit
+S1
+R0
+w1528433431
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register.sv
+L0 8
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register.sv|
+!i113 1
+R11
+R12
+n@register
+vRegister_tb
+R1
+R24
+!i10b 1
+!s100 0YDJneE^=bQ]<llaW=Ddb1
+I;1866<E^BzG_1l]W9ekRo0
+R3
+!s105 Register_tb_sv_unit
+S1
+R0
+R13
+8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register_tb.sv
+FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register_tb.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/Register_tb.sv|
+!i113 1
+R11
+R12
+n@register_tb
+vtop_module
+R1
+DXx4 work 18 top_module_sv_unit 0 22 HJ`[mgQnn4kIa>l@^^CXY0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 F]LjjaG;i1=VnE<^Cg;f:3
+I9i5m4QBJKAo_HX=Jk4WTm3
+!s105 top_module_sv_unit
+S1
+R0
+Z26 w1528488378
+Z27 8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/top_module.sv
+Z28 FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/top_module.sv
+L0 16
+R7
+Z29 !s108 1528582371.000000
+Z30 !s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/top_module.sv|
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/top_module.sv|
+!i113 1
+R11
+R12
+Xtop_module_sv_unit
+R1
+VHJ`[mgQnn4kIa>l@^^CXY0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [K]`n2i@V@CW>^jbSfH;=0
+IHJ`[mgQnn4kIa>l@^^CXY0
+!i103 1
+S1
+R0
+R26
+R27
+R28
+L0 7
+R7
+R29
+R30
+R31
+!i113 1
+R11
+R12
+vTopLevel_tb
+R1
+R2
+DXx4 work 19 TopLevel_tb_sv_unit 0 22 TRK>C4[h[?ML4OPC<TU6M1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 R1fUJG_>_;?d0l7eUQfSn2
+Im?TQOMcne2Pej^VQjGY0E1
+!s105 TopLevel_tb_sv_unit
+S1
+R0
+Z32 w1528582613
+Z33 8C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/TopLevel_tb.sv
+Z34 FC:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/TopLevel_tb.sv
+L0 8
+R7
+Z35 !s108 1528582618.000000
+Z36 !s107 C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/TopLevel_tb.sv|
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/TopLevel_tb.sv|
+!i113 1
+R11
+R12
+n@top@level_tb
+XTopLevel_tb_sv_unit
+R1
+R2
+VTRK>C4[h[?ML4OPC<TU6M1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7>f9A;B;0oJjgBiB29[iX2
+ITRK>C4[h[?ML4OPC<TU6M1
+!i103 1
+S1
+R0
+R32
+R33
+R34
+L0 7
+R7
+R35
+R36
+R37
+!i113 1
+R11
+R12
+n@top@level_tb_sv_unit

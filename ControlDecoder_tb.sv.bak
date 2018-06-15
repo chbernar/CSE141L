@@ -1,0 +1,101 @@
+// Create Date:     2018.6.05
+// Latest rev date: 2018.6.05
+// Created by:      Christhoper Bernard, Darell Hoei
+// Design Name:     CSE141L
+// Module Name:     Control Decoder Testbench
+
+module IF_tb;
+
+	parameter PC_size = 16;
+	parameter DW = 9;
+	
+	// IF DUT Input Drivers
+	reg 							CLK;				// Clock signal
+	reg 							Start;			// Start control signal
+	reg 							Halt;				// Halt control signal
+	reg 							Branch;			// Branch control signal
+	reg [PC_size-1:0]			BranchAddress;	// Branch address
+	reg [PC_size-1:0]			StartAddress;	// Start address
+	
+	// IF DUT Output Drivers
+	wire [PC_size-1:0]		PC;					// Output for next PC
+	
+	// InstROM DUT Input Drivers
+	reg [PC_size-1:0]			ReadAddress;
+	
+	// InstROM DUT Output Drivers
+	wire [DW-1:0]				Instruction;
+
+	// Instantiate IF module UUT (Unit Under Test)
+	InstructionFetch	#(.PC_size (PC_size)) IF_uut(
+		.CLK(CLK),
+		.Start			(Start),
+		.Halt				(Halt),
+		.Branch			(Branch),
+		.BranchAddress	(BranchAddress),
+		.StartAddress	(StartAddress),
+		.PC				(PC)
+	);
+	
+	// Instantiate InstROM Module UUT (Unit Under Test)
+	InstructionROM	InstROM_uut(
+		.ReadAddress	(ReadAddress),
+		.Instruction	(Instruction)
+	);
+	
+	
+	initial begin
+		// Wait 100ns for global reset to finish
+		#100ns
+		
+		// Test case
+		Start = 1;
+		StartAddress = 16'd1;
+		Halt = 0;
+		Branch = 0;
+		#20ns;
+		
+		// Test Halt
+		Start = 0;
+		StartAddress = 16'd1;
+		Halt = 1;
+		Branch = 0;
+		#20ns;
+		
+		// Test case
+		Start = 1;
+		StartAddress = 16'd1;
+		Halt = 0;
+		Branch = 0;
+		#20ns;
+		
+		// Test Branch
+		Start = 0;
+		StartAddress = 16'd1;
+		Halt = 0;
+		Branch = 1;
+		BranchAddress = 16'd20;
+		#20ns;
+		
+		// Test regular PC increment
+		for (int i = 0; i < 100; i++) begin
+			Start = 0;
+			Halt = 0;
+			Branch = 0;
+			#20ns;
+		end
+		
+		// End testbench
+		#20ns $stop;
+	end
+
+	
+	// Clock: alternate every 20ns period;
+	always begin
+		#10ns	CLK = 1;
+		#10ns CLK = 0;
+	end
+	
+	
+	
+endmodule

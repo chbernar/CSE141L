@@ -1,0 +1,8 @@
+module MuxALUSrcB #(parameter sType8 = 8'd64)(
+	input [7:0]				ReadB,
+	input	[1:0]				instShamt,
+	input	[2:0]				instImmediate,
+	input						ALUSrcBCtrl,
+	
+	output logic [7:0] 	ALUInputA
+);

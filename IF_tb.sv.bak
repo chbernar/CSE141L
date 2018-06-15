@@ -1,0 +1,99 @@
+// Create Date:     2018.6.05
+// Latest rev date: 2018.6.05
+// Created by:      Christhoper Bernard, Darell Hoei
+// Design Name:     CSE141L
+// Module Name:     Instruction Fetch Testbench
+
+module IF_tb;
+
+	parameter PC_size = 16;
+	parameter DW = 9;
+	
+	// IF DUT Input Drivers
+	bit 							CLK;				// Clock signal
+	bit 							Start;			// Start control signal
+	bit 							Halt;				// Halt control signal
+	bit 							Branch;			// Branch control signal
+	bit [PC_size-1:0]			BranchAddress;	// Branch address
+	bit [PC_size-1:0]			StartAddress;	// Start address
+	
+	// IF DUT Output Drivers
+	bit [PC_size-1:0]		PC;					// Output for next PC
+	
+	// InstROM DUT Input Drivers
+	bit [PC_size-1:0]			ReadAddress;
+	
+	// InstROM DUT Output Drivers
+	bit [DW-1:0]				Instruction;
+
+	// Instantiate IF module UUT (Unit Under Test)
+	InstructionFetch	#(.PC_size (PC_size)) IF_uut(
+		.CLK(CLK),
+		.Start			(Start),
+		.Halt				(Halt),
+		.Branch			(Branch),
+		.BranchAddress	(BranchAddress),
+		.StartAddress	(StartAddress),
+		.PC				(PC)
+	);
+	
+	// Instantiate InstROM Module UUT (Unit Under Test)
+	InstructionROM	InstROM_uut(
+		.ReadAddress	(PC),
+		.Instruction	(Instruction)
+	);
+	
+	integer i;
+	
+	initial begin
+		// Wait 100ns for global reset to finish
+		#100ns
+		
+		// Check and see if Machine.txt was read correctly
+		$display("Instruction Data");
+		for (i = 0; i < 256; i = i + 1)
+			$display("%d:%b  %h", i, InstrROM_uut.instr_rom[i], InstrROM_uut.instr_rom[i]);
+		
+		// Test case
+		Start = 1;
+		StartAddress = 16'd0;
+		Halt = 0;
+		Branch = 0;
+		#20ns;
+		
+		// Test Halt
+		Start = 0;
+		StartAddress = 16'd0;
+		Halt = 1;
+		Branch = 0;
+		#20ns;
+		
+		// Test case
+		Start = 1;
+		StartAddress = 16'd0;
+		Halt = 0;
+		Branch = 0;
+		#20ns;
+		
+		// Test Branch
+		Start = 0;
+		StartAddress = 16'd0;
+		Halt = 0;
+		Branch = 1;
+		BranchAddress = 16'd20;
+		#20ns;
+		
+		// End testbench
+		#20ns $stop;
+	end
+
+	
+	// Clock: alternate every 20ns period;
+	always begin
+		#10ns	CLK = 1;
+		#10ns CLK = 0;
+	end
+	
+	
+	
+endmodule

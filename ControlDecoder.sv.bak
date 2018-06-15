@@ -1,0 +1,6 @@
+module ControlDecoder(
+	input [9:0]		Instruction,
+	output logic	start,
+	output logic	halt,
+	output logic	branch,
+);

@@ -1,0 +1,4 @@
+Warning (10273): Verilog HDL warning at DataMemory.sv(31): extended using "x" or "z" File: C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/DataMemory.sv Line: 31
+Warning (10268): Verilog HDL information at LUT_Reg.sv(18): always construct contains both blocking and non-blocking assignments File: C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/LUT_Reg.sv Line: 18
+Info (10281): Verilog HDL Declaration information at top_module_tb.sv(20): object "lfsr_ptrn" differs only in case from object "LFSR_ptrn" in the same scope File: C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/top_module_tb.sv Line: 20
+Info (10281): Verilog HDL Declaration information at TopLevel_tb.sv(14): object "LFSR_ptrn" differs only in case from object "lfsr_ptrn" in the same scope File: C:/Users/Christhoper Bernard/Desktop/CSE141L/Lab2/TopLevel_tb.sv Line: 14

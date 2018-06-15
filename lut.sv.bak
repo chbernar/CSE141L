@@ -1,0 +1,24 @@
+module lut(
+	input[3:0] lut_address
+	output logic[15:0] lut_val
+);
+
+always_comb case(lut_address)
+	4'd0:	lut_val = 16'd10		//loop_space_filler
+	4'd1: lut_val = 16'd30		//postamble
+	4'd2: lut_val = 16'd58		//end
+	4'd3: lut_val = 16'd10		//loop_currPattern
+	4'd4: lut_val = 16'd60		//loop_prefix_detect
+	4'd5: lut_val = 16'd76		//copy_string_done
+	4'd6: lut_val = 16'd68		//loop_copy_string
+	4'd7: lut_val = 16'd55		//break_true
+	4'd8: lut_val = 16'd22		//loop_decrypt
+	4'd9: lut_val = 16'd67		//loop_prefix_detect_done
+	4'd10: lut_val = 16'd48		//increment
+	4'd11: lut_val = 16'd20		//loop_append
+	4'd12: lut_val = 16'd33		//loop_postamble
+	4'd13: lut_val = 16'd48		//loop_encrypt
+	default: lut_val = 16'd0	//unused (just for error/warning handling)
+endcase
+
+endmodule

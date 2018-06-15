@@ -1,0 +1,12 @@
+// Create Date:     2018.11.05
+// Latest rev date: 2018.11.05
+// Created by:      Christhoper Bernard, Darell Hoei
+// Design Name:     CSE141L
+// Module Name:     Lookup Table Registers
+
+
+
+module LUT_Reg(
+	input [8:0]				lut_instruction,
+	output logic [3:0]	Result
+);

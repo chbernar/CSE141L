@@ -1,0 +1,13 @@
+// Create Date:     2018.10.05
+// Latest rev date: 2018.10.05
+// Created by:      Christhoper Bernard, Darell Hoei
+// Design Name:     CSE141L
+// Module Name:     IF
+
+module IF #(parameter addressSize = 16)(
+	input CLK,			// Clock signal
+	input Start,		// Start control signal
+	input Halt,			// Halt control signal
+	input Branch,		// Branch control signal
+	input signed[
+);

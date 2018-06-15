@@ -1,0 +1,5 @@
+module MuxALUSrcA(
+	input [7:0]				ReadA,
+	input Spec,
+	output logic [7:0] 	ALUInputA
+);
